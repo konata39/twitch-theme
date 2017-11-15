@@ -22,7 +22,11 @@
     background-size: cover;
 }
 
+.border-t.full-width mg-t-1 {
+   border-top: 0px solid #2c2541!important;
+}
 
+full-width flex-grow-1
 .ull-height.flex.flex-nowrap.justify-content-between {
     background: rgba(0, 0, 0, 1);
 }
@@ -49,11 +53,11 @@
 
 .chat__pane {
 	background-color: var(--greybg)!important;
-    border-color: var(--lightgrey)!important;
+    border-color: rgba(0, 0, 0, 0);
 }
 
 .tw-button--hollow, .tw-button--hollow.tw-button--icon-only, .tw-button-icon--hollow{
-    border-color: var(--lightgrey)!important;
+     border-color: rgba(0, 0, 0, 0);
 }
 
 .theme--dark .side-nav__overlay-wrapper, .theme--dark .side-nav__theme-wrapper {
@@ -154,7 +158,7 @@
 
 .search-title-bar {
     background: var(--lightgrey)!important;
-	border:none!important;
+	 border-color: rgba(0, 0, 0, 0);
 }
 
 .search-result-view__titlesep {
@@ -177,7 +181,7 @@
 
 .clips-modal-view {
     background: var(--greybg)!important;
-    border-color: var(--lightgrey)!important;
+     border-color: rgba(0, 0, 0, 0);
 }
 
 .clips-modal-view .tw-input {
@@ -202,7 +206,7 @@
 }
 
 .border-b {
-    border-bottom: 1px solid var(--lightgrey)!important;
+     border-color: rgba(0, 0, 0, 0);
 }
 
 .chat-line__moderation, .chat-line__status {
@@ -259,7 +263,7 @@ button {
 }
 
 .carousel-nav__item {
-    border-color: var(--textcolor)!important;
+     border-color: rgba(0, 0, 0, 0);
 }
 
 .tw-interactable--hover, .tw-interactable:hover {
